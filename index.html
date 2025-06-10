@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Time Management Coach</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>⏰ Time Management Coach</h1>
+    <div class="task-input">
+      <input type="text" id="taskName" placeholder="Task name">
+      <select id="taskPriority">
+        <option value="high">High Priority</option>
+        <option value="medium">Medium Priority</option>
+        <option value="low">Low Priority</option>
+      </select>
+      <input type="number" id="taskDuration" placeholder="Duration (mins)" min="1">
+      <button id="addTask">Add Task</button>
+    </div>
+    <div id="taskList"></div>
+    <button id="generateSchedule">Generate Schedule</button>
+    <div id="schedule"></div>
+    <div id="loading" style="display: none;">Generating schedule with AI... ⏳</div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
