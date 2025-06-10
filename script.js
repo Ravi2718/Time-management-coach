@@ -1,5 +1,5 @@
 const tasks = [];
-const API_KEY = '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'; // Replace with your actual API key
+const API_KEY = 'Your_api_key'; // Replace with your actual API key
 const CACHE_KEY = 'task-scheduler-tasks';
 
 // Load tasks from cache when page loads
